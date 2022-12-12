@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Smythe&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Moon+Dance&display=swap');
+
+*{
+  margin:0px;
+  padding:0px;
+}
+
+.navBar{
+  border:1px solid red;
+  height:40px;
+  background-color: red;
+}
+
+.navBar > p{
+ margin:4px 0px 0px 20%;
+ font-weight: bold;
+ color: white;
+ font-family: 'Smythe', cursive;
+ font-size: 25px;
+}
+
+
+.fle{
+  line-height: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: space-around;
+  margin: 80px 0px 0px -400px;
+}
+
+.fle h3{
+  font-family: 'Smythe', cursive;
+  font-size: 50px;
+  margin:0px 0px 50px 0px;
+}
+
+.fle p {
+  font-family: 'Moon Dance', cursive;
+  font-size:25px;
+}
+
+
+input{
+  width: 450px;
+  height: 35px;
+}
+
+button{
+  width: 450px;
+  height: 40px;
+  font-family: 'Smythe', cursive;
+  font-size: 23px;
+  color: black;
+
+}
+
+button:hover{
+  background-color: red;
+  color: white;
+}
+.clear{
+  width: 450px;
+  height: 40px;
+
+}
+#qrcode{
+  display: flex;
+  flex-direction: row;
+  align-content: stretch;
+  justify-content: center;
+  align-items: baseline;
+  margin: 50px 0px 0px 0px;
+}

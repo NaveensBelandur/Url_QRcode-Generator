@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>QR Code</title>
+    <link href='./index.css' rel='stylesheet'/>
+  </head>
+  <body >
+    <div class='main'>
+      <div class='navBar'>
+      <p>QR Generator</p>
+      </div>
+        <div class='fle' >
+         <h3>QR Code Generator</h3>
+         <p>QR Codes allow smartphone users to access your website <br/>
+          simply and quickly</p>
+          <br/>
+          <p>Enter Your UR below to generate a OR Code and download<br/> the image</p>
+          <br/>
+          <form id='generate-form'>
+            <input type='url'id='url' placeholder="Enter A URL" />
+            <br/>
+            <br/>
+            <button >Generate QR Code</button>
+          </form>
+        </div>
+       
+        <div id="qrcode"></div>
+        <br/>
+        <br/>
+      </div>
+    <script src='./script.js'></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js" integrity="sha512-CNgIRecGo7nphbeZ04Sc13ka07paqdeTu0WR1IM4kNcpmBAUSHSQX0FslNhTDadL4O5SAGapGt4FodqL8My0mA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  </body>
+</html>
